@@ -1,10 +1,4 @@
-CHECK: 20240312-110046
-OK: file codeforces.id is correct
-OK: folder prj.codeforces structure is correct
-ERROR: file prj.codeforces/CMakeLists.txt is absent
-ERROR: file prj.lab/rational/CMakeLists.txt is absent
-OK: CMake generator successed
-ERROR: CMake build (MSVC x64) failed
+CHECK: 20240312-190744
 ERROR: lab complex - test build failed
 ERROR: lab complex_io - test build failed
 STATUS: lab complex_m - test-ok
