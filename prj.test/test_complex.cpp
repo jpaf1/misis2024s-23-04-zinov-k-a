@@ -1,205 +1,146 @@
-#include "complex/complex.hpp"
+#include <complex/complex.hpp>
 
-int main()
-{
-	using namespace std;
+int main() {
+  Complex x{};
+  Complex y{};
+  double d;
+    std::cout << "test\n";
+  x = Complex{ 1, 1 };
+  y = Complex{ 0.0, 0.0 };
+  d = 0.0;
+  try {
+    std::cout << "1) " << x << "/" << d << "\nExpected: Divide by zero exception\n";
+    x / d;
+  }
+  catch (std::overflow_error& e) {
+    std::cout << e.what() << '\n';
+  }
+  try {
+    std::cout << "2) " << x << "/" << y << "\nExpected: Divide by zero exception\n";
+    x / y;
+  }
+  catch (std::overflow_error& e) {
+    std::cout << e.what() << '\n';
+  }
 
-	Complex x, y;
-	double d;
+  x = Complex{ 1.5, 2.0 };
+  y = Complex{ 2.5, 3.5 };
+  std::cout << "3) " << x << " + " << y << " == " << x + y
+    << "\nExpected: {4.0, 5.5}\n";
 
-	// Test Case 1
-	x = Complex{ 1.5, 2.0 };
-	y = Complex{ 2.5, 3.5 };
-	std::cout << x << " + " << y << " == " << x + y << " Expected: {4.0, 5.5}\n";
+  x = Complex{ 3.0, 5.0 };
+  y = Complex{ 1.5, 2.5 };
+  std::cout << "4) " << x << " - " << y << " == " << x - y
+    << "\nExpected: {1.5, 2.5}\n";
 
-	// Test Case 2
-	x = Complex{ 3.0, 5.0 };
-	y = Complex{ 1.5, 2.5 };
-	std::cout << x << " - " << y << " == " << x - y << " Expected: {1.5, 2.5}\n";
+  x = Complex{ 1.5, 2.0 };
+  y = Complex{ 2.0, 3.0 };
+  std::cout << "5) " << x << " * " << y << " == " << x * y
+    << "\nExpected: {-3,8.5}\n";
 
-	// Test Case 3
-	x = Complex{ 1.5, 2.0 };
-	y = Complex{ 2.0, 3.0 };
-	std::cout << x << " * " << y << " == " << x * y << " Expected: {-3,8.5}\n";
+  x = Complex{ 3.0, 5.0 };
+  y = Complex{ 1.5, 2.5 };
+  std::cout << "6) " << x << " / " << y << " == " << x / y
+    << "\nExpected: {2, 0}\n";
 
-	// Test Case 4
-	x = Complex{ 3.0, 5.0 };
-	y = Complex{ 1.5, 2.5 };
-	std::cout << x << " / " << y << " == " << x / y << " Expected: {2, 0}\n";
+  d = 2.5;
+  x = Complex{ 1.5, 1.0 };
+  std::cout << "7) " << d << " + " << x << " == " << d + x
+    << "\nExpected: {4.0, 1.0}\n";
+  std::cout << "8) " << x << " + " << d << " == " << x + d
+    << "\nExpected: {4.0, 1.0}\n";
 
-	// Test Case 5
-	x = Complex{ 1.0, 2.0 };
-	y = Complex{ 3.0, 4.0 };
-	std::cout << x << " + " << y << " == " << x + y << " Expected: {4.0, 6.0}\n";
+  x = Complex{ 1, 3 };
+  d = 3.5;
+  std::cout << "9) " << x << " - " << d << " == " << x - d
+    << "\nExpected: {-2.5, 3}\n";
+  std::cout << "10) " << d << " - " << x << " == " << d - x
+    << "\nExpected: {2.5, -3}\n";
 
-	// Test Case 6
-	x = Complex{ 2.5, 3.0 };
-	y = Complex{ 1.5, 2.0 };
-	std::cout << x << " - " << y << " == " << x - y << " Expected: {1.0, 1.0}\n";
+  d = 2.0;
+  x = Complex{ 1.5, -1.0 };
+  std::cout << "11) " << d << " * " << x << " == " << d * x << "\nExpected: {3.0, -2.0}\n";
+  std::cout << "12) " << x << " * " << d << " == " << x * d << "\nExpected: {3.0, -2.0}\n";
 
-	// Test Case 7
-	x = Complex{ 1.0, 2.0 };
-	y = Complex{ 2.0, 3.0 };
-	std::cout << x << " * " << y << " == " << x * y << " Expected: {-4.0, 7.0}\n";
+  x = Complex{ -7.5, 2.5 };
+  d = 2.5;
+  std::cout << "13) " << x << " / " << d << " == " << x / d << "\nExpected: {-3, 1}\n";
+  std::cout << "14) " << d << " / " << x << " == " << d / x << "\nExpected: {-0.3, -0.1}\n";
 
-	// Test Case 8
-	x = Complex{ 3.0, 5.0 };
-	y = Complex{ 2.0, 2.0 };
-	std::cout << x << " / " << y << " == " << x / y << " Expected: {2, 0.5}\n";
+  std::cout << "Assignment\n";
+  d = 43.23;
+  x = Complex{ 1, 1 };
+  y = Complex{ 12, 33 };
+  std::cout << "15) " << x << " = " << d << "| x = ";
+  x = d;
+  std::cout << x << "\nExpected: {43.23,0}\n";
+  std::cout << "16) " << x << " = " << y << "| x = ";
+  x = y;
+  std::cout << x << "\nExpected: {12, 33}\n";
 
-	// Test Case 9
-	x = Complex{ 2.0, 3.0 };
-	y = Complex{ 1.0, 1.0 };
-	std::cout << x << " + " << y << " == " << x + y << " Expected: {3.0, 4.0}\n";
+  x = Complex{ 11.1, 9.8 };
+  y = Complex{ 7, -9 };
+  d = 10.0;
+  std::cout << "17) " << x << " /= " << y << "| x = ";
+  x /= y;
+  std::cout << x << "\nExpected: {-0.0807, 1.2961}\n";
 
-	// Test Case 10
-	x = Complex{ 3.0, 4.0 };
-	y = Complex{ 1.0, 2.0 };
-	std::cout << x << " - " << y << " == " << x - y << " Expected: {2.0, 2.0}\n";
+  std::cout << "18) " << x << " /= " << d << "| x = ";
+  x /= d;
+  std::cout << x << "\nExpected: {-0.00807, 0.12961}\n";
 
-	// Test Case 11
-	d = 2.5;
-	x = Complex{ 1.5, 1.0 };
-	std::cout << d << " + " << x << " == " << d + x << " Expected: {4.0, 1.0}\n";
+  x = Complex{ 1.12, 2.49 };
+  y = Complex{ 1.88, 2.51 };
+  d = 1.0;
+  std::cout << "19) " << x << " += " << y << "| x = ";
+  x += y;
+  std::cout << x << "\nExpected: {3, 5}\n";
 
-	// Test Case 12
-	x = Complex{ 1.8, 2.2 };
-	d = 3.5;
-	std::cout << x << " - " << d << " == " << x - d << " Expected: {-1.7, 2.2}\n";
+  std::cout << "20) " << x << " += " << d << "| x = ";
+  x += d;
+  std::cout << x << "\nExpected: {4, 5}\n";
 
-	// Test Case 13
-	d = 2.0;
-	x = Complex{ 1.5, -1.0 };
-	std::cout << d << " * " << x << " == " << d * x << " Expected: {3.0, -2.0}\n";
+  std::cout << "21) " << x << " -= " << y << "| x = ";
+  x -= y;
+  std::cout << x << "\nExpected: {2.12, 2.49}\n";
 
-	// Test Case 14
-	x = Complex{ -4.0, 5.5 };
-	d = 2.5;
-	std::cout << x << " / " << d << " == " << x / d << " Expected: {-1.6, 2.2}\n";
+  std::cout << "21) " << x << " -= " << d << "| x = ";
+  x -= d;
+  std::cout << x << "\nExpected: {1.12, 2.49}\n";
 
-	// Test Case 15
-	d = 1.5;
-	x = Complex{ 3.0, -2.0 };
-	std::cout << d << " + " << x << " == " << d + x << " Expected: {4.5, -2.0}\n";
+  x = Complex{ 1.0, 1.0 };
+  y = Complex{ 5, 0 };
+  std::cout << "22) " << x << " *= " << y << "| x = ";
+  x *= y;
+  std::cout << x << "\nExpected: {5, 5}\n";
 
-	// Test Case 16
-	x = Complex{ 1.0, 2.0 };
-	d = 3.5;
-	std::cout << x << " - " << d << " == " << x - d << " Expected: {-2.5, 2.0}\n";
+  d = -1.0;
+  std::cout << "23) " << x << " *= " << d << "| x = ";
+  x *= d;
+  std::cout << x << "\nExpected: {-5, -5}\n";
 
-	// Test Case 17
-	d = 2.0;
-	x = Complex{ 1.0, -1.0 };
-	std::cout << d << " * " << x << " == " << d * x << " Expected: {2.0, -2.0}\n";
+  d = 12.5;
+  x = Complex{ 12.5, 12.59 };
+  std::cout << "24) " << d << " == " << x << ": " << (d == x) << "\nExpected: 0\n";
+  std::cout << "25) " << x << " == " << d << ": " << (x == d) << "\nExpected: 0\n";
+  std::cout << "26) " << d << " != " << x << ": " << (d != x) << "\nExpected: 1\n";
+  std::cout << "27) " << x << " != " << d << ": " << (x != d) << "\nExpected: 1\n";
 
-	// Test Case 18
-	x = Complex{ -6.0, 8.0 };
-	d = 2.5;
-	std::cout << x << " / " << d << " == " << x / d << " Expected: {-2.4, 3.2}\n";
+  y = Complex{ 12.5, 133123 };
+  std::cout << "28) " << y << " == " << x << ": " << (y == x) << "\nExpected: 0\n";
+  std::cout << "29) " << y << " != " << x << ": " << (y != x) << "\nExpected: 1\n";
 
-	// Test Case 19
-	d = 2.5;
-	x = Complex{ 1.0, 1.5 };
-	std::cout << d << " + " << x << " == " << d + x << " Expected: {3.5,1.5}\n";
+  x = Complex(12, 12);
+  std::cout << "30) Conjugate to " << x << " == " << conjugate(x)
+    << "\nExpected: {12,-12}\n";
+  
+  x = Complex{ 1, 0.1 + 0.2};
+  y = Complex{ 1, 0.3 };
+  std::cout << "31) Testing comparison of floating point numbers \
+{1, 0.1 + 0.2} == {1, 0.3}\n";
+  std::cout << "Result -> " << (x.re == y.re && x.im == y.im)
+    << ":Comparing floating point numbers using \"==\"" << '\n';
+  std::cout << "Result -> " << (x == y)
+    << ":Comparing floating point numbers using \"epsilon\"\n\n";
 
-	// Test Case 20
-	x = Complex{ 3.0, -2.0 };
-	d = 1.5;
-	std::cout << x << " - " << d << " == " << x - d << " Expected: {1.5, -2}\n";
-
-	// Test Case 21
-	d = 4.0;
-	x = Complex{ 2.0, -1.0 };
-	std::cout << d << " / " << x << " == " << d / x << " Expected: {1.6, 0.8}\n";
-
-	// Test Case 22
-	d = 43.23;
-	x = Complex{ 1, 1 };
-	y = Complex{ 12, 33 };
-	x = d;
-	std::cout << x << " Expected: {43.23,0}\n";
-	x = y;
-	std::cout << x << " Expected: {12, 33}\n";
-
-	// Test Case 23
-	x = Complex{ 11.1, 9.8 };
-	y = Complex{ 7, -9 };
-	x /= y;
-	std::cout << x << " Expected: {-0.0807,1.2961}\n";
-
-	// Test Case 24
-	x = Complex{ 100, 90 };
-	d = 10.0;
-	x /= d;
-	std::cout << x << " Expected: {10,9}\n";
-
-	// Test Case 25
-	x = Complex{ 1.12, 2.49 };
-	y = Complex{ 1.88, 2.51 };
-	x += y;
-	std::cout << x << " Expected: {3,5}\n";
-
-	// Test Case 26
-	x -= y;
-	std::cout << x << " Expected: {1.12,2.49}\n";
-
-	// Test Case 27
-	x *= y;
-	std::cout << x << " Expected: {-4.1443,7.4924}\n";
-
-	// Test Case 28
-	x = Complex{ 1,1 };
-	d = 2.0;
-	x += d;
-	std::cout << x << " Expected: {3, 1}\n";
-
-	// Test Case 29
-	x -= d;
-	x *= d;
-	std::cout << x << " Expected: {2,2}\n";
-
-	// Test Case 30
-	x /= d;
-	std::cout << x << " Expected: {1,1}\n";
-
-	// Test Case 31
-	x = Complex{ 1,1 };
-	d = 8.8;
-	x = d;
-	std::cout << x << " Expected: {8.8,0}\n";
-
-	// Test Case 32
-	x = Complex{ 12,13 };
-	y = Complex{ 1,1 };
-	x = y;
-	std::cout << x << " Expected: {1,1}\n";
-
-	// Test Case 33
-	d = 12.5;
-	x = Complex{ 12.5, 12.5 };
-	std::cout << (d == x) << " Expected: 0\n";
-	std::cout << (x == d) << " Expected: 0\n";
-	std::cout << (d != x) << " Expected: 1\n";
-	std::cout << (x != d) << " Expected: 1\n";
-
-	// Test Case 34
-	y = Complex{ 12.5, 12.5 };
-	std::cout << (y == x) << " Expected: 1\n";
-	std::cout << (x == y) << " Expected: 1\n";
-	std::cout << (y != x) << " Expected: 0\n";
-	std::cout << (x != y) << " Expected: 0\n";
-
-	// Test Case 35
-	y = Complex{ 1,1 };
-	std::cout << (y == x) << " Expected: 0\n";
-	std::cout << (x == y) << " Expected: 0\n";
-	std::cout << (y != x) << " Expected: 1\n";
-	std::cout << (x != y) << " Expected: 1\n";
-
-	// Test Case 36
-	d = 4.5;
-	x = Complex{ 12, 35 };
-	std::cout << d << " - " << x << " == " << d - x << " Expected: {-7.5, -35}\n";
-
-	return 0;
 }
