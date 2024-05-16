@@ -109,7 +109,7 @@ bool Complex::operator!=(const Complex& rhs) {
   return !operator==(rhs);
 }
  bool operator==(const double& lhs, const Complex& rhs) { return Complex(lhs) == rhs; }
- bool operator==(const Complex& lhs, const double rhs) { return Complex(rhs) == lhs; }
+ bool operator==(const Complex& lhs, const double& rhs) { return Complex(rhs) == lhs; }
  bool operator!=(const double& lhs, const Complex& rhs) { return Complex(lhs) != rhs; }
  bool operator!=(const Complex& lhs, const double& rhs) { return Complex(rhs) != lhs; }
  Complex operator+(const double& lhs, const Complex& rhs) { return Complex(lhs) + rhs; }
@@ -117,7 +117,7 @@ bool Complex::operator!=(const Complex& rhs) {
  Complex operator-(const double& lhs, const Complex& rhs) { return Complex(lhs) - rhs; }
  Complex operator-(const Complex& lhs, const double& rhs) { return lhs - Complex(rhs); }
  Complex operator*(const double& lhs, const Complex& rhs) { return Complex(lhs) * rhs; }
- Complex operator*(const Complex& lhs, const double rhs) { return Complex(rhs) * lhs; }
+ Complex operator*(const Complex& lhs, const double& rhs) { return Complex(rhs) * lhs; }
  Complex operator/(const double& lhs, const Complex& rhs) { return Complex(lhs) / rhs; }
  Complex operator/(const Complex& lhs, const double& rhs) { return lhs / Complex(rhs); }
 
