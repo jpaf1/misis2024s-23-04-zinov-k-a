@@ -31,66 +31,12 @@ Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doc
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_complex.exe.exe
  3/20 Test  #3: doctest_complex ..................***Not Run   0.00 sec
       Start  4: doctest_complex_io
-Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_complex_io.exe
-Looked in the following places:
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_complex_io.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_complex_io.exe.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_complex_io.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_complex_io.exe.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_complex_io.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_complex_io.exe.exe
- 4/20 Test  #4: doctest_complex_io ...............***Not Run   0.00 sec
       Start  5: doctest_complex_m
       Start  6: doctest_rational
-Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational.exe
-Looked in the following places:
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational.exe.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_rational.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_rational.exe.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational.exe.exe
- 5/20 Test  #6: doctest_rational .................***Not Run   0.00 sec
       Start  7: doctest_rational_io
-Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational_io.exe
-Looked in the following places:
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational_io.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational_io.exe.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_rational_io.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_rational_io.exe.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational_io.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational_io.exe.exe
- 6/20 Test  #7: doctest_rational_io ..............***Not Run   0.00 sec
       Start  8: doctest_rational_m
-Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational_m.exe
-Looked in the following places:
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational_m.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational_m.exe.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_rational_m.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_rational_m.exe.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational_m.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_rational_m.exe.exe
- 7/20 Test  #8: doctest_rational_m ...............***Not Run   0.00 sec
       Start  9: doctest_dynarr
-Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_dynarr.exe
-Looked in the following places:
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_dynarr.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_dynarr.exe.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_dynarr.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_dynarr.exe.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_dynarr.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_dynarr.exe.exe
- 8/20 Test  #9: doctest_dynarr ...................***Not Run   0.00 sec
       Start 10: doctest_dynarr_m
-Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_dynarr_m.exe
-Looked in the following places:
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_dynarr_m.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_dynarr_m.exe.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_dynarr_m.exe
-D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_dynarr_m.exe.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_dynarr_m.exe
-Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_dynarr_m.exe.exe
- 9/20 Test #10: doctest_dynarr_m .................***Not Run   0.00 sec
       Start 11: doctest_queuearr
 Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuearr.exe
 Looked in the following places:
@@ -100,7 +46,7 @@ D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doc
 D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_queuearr.exe.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuearr.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuearr.exe.exe
-10/20 Test #11: doctest_queuearr .................***Not Run   0.00 sec
+ 4/20 Test #11: doctest_queuearr .................***Not Run   0.00 sec
       Start 12: doctest_queuearr_m
 Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuearr_m.exe
 Looked in the following places:
@@ -110,7 +56,7 @@ D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doc
 D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_queuearr_m.exe.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuearr_m.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuearr_m.exe.exe
-11/20 Test #12: doctest_queuearr_m ...............***Not Run   0.00 sec
+ 5/20 Test #12: doctest_queuearr_m ...............***Not Run   0.00 sec
       Start 13: doctest_queuelst
 Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuelst.exe
 Looked in the following places:
@@ -120,7 +66,7 @@ D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doc
 D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_queuelst.exe.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuelst.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuelst.exe.exe
-12/20 Test #13: doctest_queuelst .................***Not Run   0.00 sec
+ 6/20 Test #13: doctest_queuelst .................***Not Run   0.00 sec
       Start 14: doctest_queuelst_m
 Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuelst_m.exe
 Looked in the following places:
@@ -130,7 +76,7 @@ D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doc
 D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_queuelst_m.exe.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuelst_m.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuelst_m.exe.exe
-13/20 Test #14: doctest_queuelst_m ...............***Not Run   0.00 sec
+ 7/20 Test #14: doctest_queuelst_m ...............***Not Run   0.00 sec
       Start 15: doctest_queuelstpr
 Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuelstpr.exe
 Looked in the following places:
@@ -140,7 +86,7 @@ D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doc
 D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_queuelstpr.exe.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuelstpr.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuelstpr.exe.exe
-14/20 Test #15: doctest_queuelstpr ...............***Not Run   0.00 sec
+ 8/20 Test #15: doctest_queuelstpr ...............***Not Run   0.00 sec
       Start 16: doctest_queuelstpr_m
 Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuelstpr_m.exe
 Looked in the following places:
@@ -150,7 +96,7 @@ D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doc
 D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_queuelstpr_m.exe.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuelstpr_m.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_queuelstpr_m.exe.exe
-15/20 Test #16: doctest_queuelstpr_m .............***Not Run   0.00 sec
+ 9/20 Test #16: doctest_queuelstpr_m .............***Not Run   0.00 sec
       Start 17: doctest_stackarr
 Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_stackarr.exe
 Looked in the following places:
@@ -160,7 +106,7 @@ D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doc
 D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_stackarr.exe.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_stackarr.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_stackarr.exe.exe
-16/20 Test #17: doctest_stackarr .................***Not Run   0.00 sec
+10/20 Test #17: doctest_stackarr .................***Not Run   0.00 sec
       Start 18: doctest_stackarr_m
 Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_stackarr_m.exe
 Looked in the following places:
@@ -170,7 +116,7 @@ D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doc
 D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_stackarr_m.exe.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_stackarr_m.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_stackarr_m.exe.exe
-17/20 Test #18: doctest_stackarr_m ...............***Not Run   0.00 sec
+11/20 Test #18: doctest_stackarr_m ...............***Not Run   0.00 sec
       Start 19: doctest_stacklst
 Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_stacklst.exe
 Looked in the following places:
@@ -180,7 +126,7 @@ D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doc
 D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_stacklst.exe.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_stacklst.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_stacklst.exe.exe
-18/20 Test #19: doctest_stacklst .................***Not Run   0.00 sec
+12/20 Test #19: doctest_stacklst .................***Not Run   0.00 sec
       Start 20: doctest_stacklst_m
 Could not find executable D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_stacklst_m.exe
 Looked in the following places:
@@ -190,23 +136,27 @@ D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doc
 D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/Release/doctest_stacklst_m.exe.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_stacklst_m.exe
 Release/D:/projects/misis2023f-23-check/misis2024s-23-04-zinov-k-a/bin.check/doctest_stacklst_m.exe.exe
-19/20 Test #20: doctest_stacklst_m ...............***Not Run   0.00 sec
-20/20 Test  #5: doctest_complex_m ................   Passed    0.01 sec
+13/20 Test #20: doctest_stacklst_m ...............***Not Run   0.00 sec
+14/20 Test  #4: doctest_complex_io ...............   Passed    0.02 sec
+15/20 Test  #5: doctest_complex_m ................   Passed    0.02 sec
+16/20 Test  #8: doctest_rational_m ...............   Passed    0.01 sec
+17/20 Test  #9: doctest_dynarr ...................***Failed    0.01 sec
+18/20 Test #10: doctest_dynarr_m .................***Failed    0.01 sec
+19/20 Test  #7: doctest_rational_io ..............***Failed    0.01 sec
+20/20 Test  #6: doctest_rational .................***Timeout  10.01 sec
 
-5% tests passed, 19 tests failed out of 20
+15% tests passed, 17 tests failed out of 20
 
-Total Test time (real) =   0.02 sec
+Total Test time (real) =  10.02 sec
 
 The following tests FAILED:
 	  1 - doctest_bitset (Not Run)
 	  2 - doctest_bitset_m (Not Run)
 	  3 - doctest_complex (Not Run)
-	  4 - doctest_complex_io (Not Run)
-	  6 - doctest_rational (Not Run)
-	  7 - doctest_rational_io (Not Run)
-	  8 - doctest_rational_m (Not Run)
-	  9 - doctest_dynarr (Not Run)
-	 10 - doctest_dynarr_m (Not Run)
+	  6 - doctest_rational (Timeout)
+	  7 - doctest_rational_io (Failed)
+	  9 - doctest_dynarr (Failed)
+	 10 - doctest_dynarr_m (Failed)
 	 11 - doctest_queuearr (Not Run)
 	 12 - doctest_queuearr_m (Not Run)
 	 13 - doctest_queuelst (Not Run)
