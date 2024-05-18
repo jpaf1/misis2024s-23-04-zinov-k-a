@@ -19,7 +19,7 @@ public:
     DynArr(std::initializer_list<float> il);
     ~DynArr();
     
-    DynArr& operator=(const DynArr&);
+    DynArr& operator=(const DynArr& rhs);
     std::ptrdiff_t Size() const noexcept { return size_; }
     std::ptrdiff_t Capacity() const noexcept { return capacity_; }
     void Resize(const std::ptrdiff_t size);
