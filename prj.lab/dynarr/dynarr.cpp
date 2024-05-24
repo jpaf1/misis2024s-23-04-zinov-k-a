@@ -36,6 +36,11 @@ DynArr::DynArr(std::initializer_list<float> il) {
     }
 }
 
+DynArr::DynArr(DynArr&& src) noexcept {
+  std::swap(capacity_, src.capacity_);
+  std::swap(size_, src.size_);
+  std::swap(data_, src.data_);
+}
 
 DynArr::~DynArr() {
     delete[] data_;
@@ -77,6 +82,15 @@ DynArr& DynArr::operator=(const DynArr& rhs){
         *(data_ + (i - rhs.data_)) = *i;
     }
     return *this;
+}
+
+DynArr& DynArr::operator=(DynArr&& src) noexcept {
+  if (this != &src) {
+    std::swap(capacity_, src.capacity_);
+    std::swap(size_, src.size_);
+    std::swap(data_, src.data_);
+  }
+  return *this;
 }
 
 float& DynArr::operator[](const std::ptrdiff_t idx) {
